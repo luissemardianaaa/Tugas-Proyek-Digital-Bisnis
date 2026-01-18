@@ -1,0 +1,4 @@
+ALTER TABLE `users`
+ADD COLUMN `no_hp` VARCHAR(20) NULL AFTER `email`,
+ADD COLUMN `kota` VARCHAR(100) NULL AFTER `no_hp`,
+ADD COLUMN `alamat` TEXT NULL AFTER `kota`;
